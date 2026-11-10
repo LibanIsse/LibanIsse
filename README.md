@@ -1,20 +1,86 @@
-# 💫 About Me:
-I’m Liban, a DevOps-focused engineer building hands-on cloud projects with AWS, Terraform, Docker, Linux and GitHub Actions.<br><br>I focus on cloud infrastructure, CI/CD, containerisation, Infrastructure as Code and deployment troubleshooting. My current work includes deploying applications on ECS Fargate, managing AWS infrastructure with Terraform, and using GitHub Actions for secure automated deployments.<br><br>I learn by building real projects, debugging issues, and documenting the process clearly.
+# 💫 About Me
 
-## Projects
+I'm Liban, a DevOps-focused engineer working with AWS, Kubernetes, Terraform, Docker, Linux and GitHub Actions.
 
-### [Memos on ECS Fargate](https://github.com/LibanIsse/memos-on-fargate)
+I focus on cloud infrastructure, CI/CD, container orchestration, Infrastructure as Code, GitOps and deployment automation. My work includes building AWS environments with Terraform, deploying containerised applications on ECS Fargate and Amazon EKS, and implementing automated delivery workflows.
 
-A production-style AWS deployment of a Dockerised Memos application on ECS Fargate. The project uses Terraform modules, GitHub Actions CI/CD, ECR, ALB, Route 53, ACM, RDS, CloudWatch and S3 remote state locking.
+I enjoy solving infrastructure problems, improving deployment processes and building reliable, secure and repeatable cloud environments.
 
-It includes automated image builds, ECS deployments, Terraform workflows, security scanning, Dependabot updates, SBOM generation and drift detection.
+## 🚀 Projects
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/liban-isse-21709b234/)[![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:liban_isse@icloud.com)
+### ☸️ [Plane on Amazon EKS – Terraform & GitOps](https://github.com/LibanIsse/plane-eks-production-deployment)
 
-# 💻 Tech Stack:
-![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+A production-style Kubernetes deployment of Plane Community Edition on Amazon EKS, with infrastructure provisioned using Terraform and applications managed through Helm and Argo CD.
 
+The project includes:
+
+- **Infrastructure as Code:** Modular Terraform configuration for VPC networking, EKS, IAM, managed node groups and AWS managed services.
+- **Kubernetes:** Deployments, Services, Ingress, resource requests and limits, and cluster add-ons.
+- **GitOps:** Argo CD application management, automated reconciliation and declarative Kubernetes configuration.
+- **Networking & HTTPS:** NGINX Ingress, AWS Load Balancer Controller, ExternalDNS, Route 53 and cert-manager.
+- **Managed Services:** Amazon RDS PostgreSQL, ElastiCache Valkey, Amazon MQ RabbitMQ and S3.
+- **Secrets Management:** AWS Secrets Manager integrated with External Secrets Operator.
+- **Monitoring & Scaling:** Kubernetes Metrics Server and workload resource management.
+- **Infrastructure Lifecycle:** Terraform remote state, repeatable infrastructure provisioning, teardown and rebuild validation.
+
+### 🐳 [Memos on ECS Fargate](https://github.com/LibanIsse/memos-on-fargate)
+
+A production-style AWS deployment of a Dockerised Memos application on ECS Fargate, with infrastructure managed through Terraform and automated deployments using GitHub Actions.
+
+The project includes:
+
+- **Infrastructure as Code:** Terraform modules for VPC, ECS, ALB, RDS, ECR, IAM and networking.
+- **CI/CD:** GitHub Actions workflows for automated Docker builds, security scanning and ECS deployments.
+- **Containerisation:** Multi-stage Docker builds, reducing image size from 2.86 GB to 82 MB.
+- **Security:** GitHub OIDC authentication, AWS Secrets Manager, vulnerability scanning and Dependabot.
+- **Networking & HTTPS:** Application Load Balancer, Route 53, ACM certificates and health checks.
+- **Monitoring:** Amazon CloudWatch logging and deployment validation.
+- **Automation:** SBOM generation, Terraform workflows and infrastructure drift detection.
+- **State Management:** Terraform remote state stored in S3 with locking.
+
+## 🌐 Socials
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/liban-isse-21709b234/)
+[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:liban_isse@icloud.com)
+
+## 💻 Tech Stack
+
+### Cloud & Infrastructure
+
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
+
+### Containers & Orchestration
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
+![Amazon EKS](https://img.shields.io/badge/Amazon_EKS-FF9900?style=for-the-badge&logo=amazoneks&logoColor=white)
+![Amazon ECS](https://img.shields.io/badge/Amazon_ECS-FF9900?style=for-the-badge&logo=amazonecs&logoColor=white)
+
+### CI/CD & GitOps
+
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Argo CD](https://img.shields.io/badge/Argo_CD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+
+### Databases & Networking
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![NGINX](https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![Apache](https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+
+### Languages & Scripting
+
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
 ---
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
